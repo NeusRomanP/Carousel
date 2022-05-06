@@ -1,0 +1,26 @@
+.slider{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider__element{
+    width: 200px;
+    min-width: 200px;
+    height: 200px;
+    background-color: blue;
+    
+    
+}
+
+.slider__container{
+    position: relative;
+    left: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.transition{
+    transition: all 1s;
+}
